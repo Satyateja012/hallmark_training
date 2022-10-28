@@ -1,0 +1,48 @@
+
+
+.main{
+    column-count: 2;
+    column-width: 300px;
+    padding: 5px;
+    
+    background-image:url('https://cdn.wallpapersafari.com/43/42/IwWBH3.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.card{
+    height: 300px;
+    width: 80%;
+    column-count: 0;
+    display:flex;
+    background:transparent;
+    margin-top: 250px;
+   
+
+    
+    box-shadow : rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card img {
+    height: 300px;
+    width: 250px;
+    
+}
+.title{
+    border: 10px;
+    width: 50%;
+    color: rgb(254, 252, 252);
+    font-size: 20px;
+
+    
+}
+.image{
+    width: 50%;
+}
+.content{
+    border-width:100px;
+    color: blue;
+    font-size: smaller;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
